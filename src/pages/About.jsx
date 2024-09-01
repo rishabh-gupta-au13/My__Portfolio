@@ -15,24 +15,30 @@ const About = () => {
       <h1 className="head-text">
         Hello, I'm{" "}
         <span className="blue-gradient_text font-semibold drop-shadow">
+          Jai{" "}
+        </span>
+        👋
+      </h1>
+
+      <h2 className="subhead-text">
+        A{" "}
+        <span className="blue-gradient_text font-semibold drop-shadow">
           <Typewriter
             words={[
-              "Jai Sharma",
-              "A Fullstack Developer",
-              "A Frontend Developer",
-              "A Backend Developer",
-              "A Coding Student",
+              "Fullstack Developer",
+              "Frontend Developer",
+              "Backend Developer",
+              "Coding Student",
             ]}
             loop={5}
             cursor
-            cursorStyle="_"
+            cursorStyle="|"
             typeSpeed={100}
             deleteSpeed={100}
             delaySpeed={2000}
           />
         </span>
-        👋
-      </h1>
+      </h2>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
@@ -44,7 +50,7 @@ const About = () => {
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
 
-        <div className="mt-16 flex flex-wrap gap-12">
+        <div className="mt-16 flex flex-wrap gap-8 md:gap-12">
           {skills.map((skill) => (
             <a
               target="_blank"
@@ -79,7 +85,7 @@ const About = () => {
           <VerticalTimeline>
             {experiences.map((experience, index) => (
               <VerticalTimelineElement
-                key={experience.company_name}
+                key={`${experience.company_name}_${index}`}
                 date={experience.date}
                 iconStyle={{ background: experience.iconBg }}
                 icon={

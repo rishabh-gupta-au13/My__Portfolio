@@ -1,7 +1,6 @@
 import { universityLivingLogo } from "../assets/images";
 import {
   car,
-  contact,
   css,
   estate,
   express,

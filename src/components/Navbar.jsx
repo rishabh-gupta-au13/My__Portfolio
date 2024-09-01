@@ -16,7 +16,9 @@ const Navbar = () => {
         <NavLink
           to="/3d-intro"
           className={({ isActive }) =>
-            isActive ? "text-blue-600 bg-white px-4 py-2 rounded-md" : "text-black px-4 py-2 rounded-md"
+            isActive
+              ? "text-blue-600 bg-white px-4 py-2 rounded-md"
+              : "text-black px-4 py-2 rounded-md"
           }
         >
           3D Intro
@@ -24,7 +26,9 @@ const Navbar = () => {
         <NavLink
           to="/projects"
           className={({ isActive }) =>
-            isActive ? "text-blue-600 px-4 py-2 rounded-md" : "text-black px-4 py-2 rounded-md"
+            isActive
+              ? "text-blue-600 px-4 py-2 rounded-md"
+              : "text-black px-4 py-2 rounded-md"
           }
         >
           Projects
