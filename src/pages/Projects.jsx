@@ -33,7 +33,7 @@ const Projects = () => {
       <div className="flex flex-wrap my-20 gap-16">
         {projects.map((project) => (
           <div
-            className="lg:w-[400px] w-full shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] p-4 rounded-lg"
+            className="lg:w-[400px] w-full"
             key={project.name}
           >
             <div className="block-container w-12 h-12">
