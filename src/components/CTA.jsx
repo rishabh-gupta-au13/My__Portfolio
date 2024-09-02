@@ -16,7 +16,7 @@ const CTA = () => {
         Download Resume
       </Link> */}
 
-      <Link to="https://www.linkedin.com/in/jaisharma1710" className="btn">
+      <Link to="https://www.linkedin.com/in/rishabh-gupta-b2835a1a6/" className="btn">
         Connect
       </Link>
     </section>
