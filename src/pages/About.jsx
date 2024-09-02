@@ -15,7 +15,7 @@ const About = () => {
       <h1 className="head-text">
         Hello, I'm{" "}
         <span className="blue-gradient_text font-semibold drop-shadow">
-          Jai{" "}
+          Rishabh{" "}
         </span>
         👋
       </h1>
@@ -25,10 +25,9 @@ const About = () => {
         <span className="blue-gradient_text font-semibold drop-shadow">
           <Typewriter
             words={[
-              "Fullstack Developer",
-              "Frontend Developer",
               "Backend Developer",
-              "Coding Student",
+              "Fullstack Developer",
+              "Coding Professional",
             ]}
             loop={5}
             cursor
@@ -43,7 +42,7 @@ const About = () => {
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
           Software Engineer based in Noida, India, specializing in Working with
-          ReactJs, NextJs, NodeJs and MongoDB.
+          NodeJs, ReactJs, NextJs,MongoDB and MySql.
         </p>
       </div>
 
@@ -75,9 +74,16 @@ const About = () => {
         <h3 className="subhead-text">Work Experience.</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I've had the opportunity to continuously level up my skills and
-            collaborate with talented professionals. Here's the rundown of my
-            experience:
+            With three years of hands-on experience in the MERN stack, I have
+            developed a strong foundation in both front-end and back-end
+            development. My expertise lies in building scalable web
+            applications, with a particular focus on backend architecture, API
+            development, and database management. Throughout my career, I've had
+            the privilege to work alongside talented professionals, which has
+            allowed me to continuously enhance my skills and stay updated with
+            the latest industry trends. I'm passionate about solving complex
+            problems and delivering high-quality software solutions that drive
+            business success.
           </p>
         </div>
 

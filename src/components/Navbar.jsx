@@ -13,7 +13,7 @@ const Navbar = () => {
         />
       </NavLink>
       <nav className="flex text-lg gap-7 font-medium">
-        <NavLink
+        {/* <NavLink
           to="/3d-intro"
           className={({ isActive }) =>
             isActive
@@ -22,7 +22,7 @@ const Navbar = () => {
           }
         >
           3D Intro
-        </NavLink>
+        </NavLink> */}
         <NavLink
           to="/projects"
           className={({ isActive }) =>

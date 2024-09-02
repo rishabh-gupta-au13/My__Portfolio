@@ -1,4 +1,4 @@
-import { universityLivingLogo } from "../assets/images";
+import { universityLivingLogo ,Waycool} from "../assets/images";
 import {
   css,
   express,
@@ -117,17 +117,20 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Software Engineer",
+    title: "Senior Software Engineer",
     company_name: "University Living",
     icon: universityLivingLogo,
     iconBg: "#FFFFFF",
     date: "Jul 2024 - Present",
     points: [
-      "Developing a cutting-edge GenAI Bot for University Living using Vercel's latest Generative UI, enhancing user interaction and experience.",
+      "Developed and maintained REST APIs using Node.js and MongoDB for efficient data retrieval and manipulation.",
       "Integrated the Airwallex payment gateway into the University Living website, significantly reducing transaction costs from 2% to 0.5%.",
-      "Designed and implemented an Image Classification System using GenAI, reducing manual work by 95% and increasing operational efficiency.",
-      "Migrated University Living's Roaster internal portal from vanilla JavaScript to Next.js App Router, improving performance and maintainability.",
-      "Engineered the entire backend infrastructure for University Living's AI Chat Bot using Node.js, ensuring robust and scalable performance.",
+      "Implemented Zoho CRM system for a sales team of 20+ members, leading to a 30% increase in lead conversion rates.",
+      "Designed and developed Redis solutions for efficient caching and real-time data processing.",
+      "Implemented CleverTap integration to streamline customer engagement and retention strategies",
+      "Integrated multiple payment gateways including Airwallex, Razorpay, and Stripe, ensuring secure and seamless transactions within web applications.",
+      "Played a key role in developing and maintaining the Management Information System (MIS) portal, providing stakeholders with real-time insights and analytics to support data-driven decision-making.",
+      "Developed and maintained GraphQL APIs to optimize data fetching."
     ],
   },
   {
@@ -135,12 +138,26 @@ export const experiences = [
     company_name: "University Living",
     icon: universityLivingLogo,
     iconBg: "#FFFFFF",
-    date: "Jun 2022 - Jul 2024",
+    date: "Sep 2022 - Jul 2024",
     points: [
       "Developed and maintained dynamic web applications using React.js and a variety of complementary technologies, ensuring optimal performance and user experience.",
       "Successfully migrated the entire University Living website from ReactJS to NextJS, enhancing site speed, SEO capabilities, and overall performance.",
       "Led the development and maintenance of critical internal portals such as LMS, CMS, and MIS, ensuring seamless operations and user accessibility.",
       "Architected and implemented APIs for multiple projects using Node.js, playing a key role in shaping the backend infrastructure of University Living.",
+      "Actively participated in code reviews, offering insightful and constructive feedback to enhance the quality and efficiency of the development team’s output.",
+    ],
+  },
+  {
+    title: "Associate Software Developer",
+    company_name: "Waycool Food And Products",
+    icon: Waycool,
+    iconBg: "#FFFFFF",
+    date: "NOv 2021 - Sep 2022",
+    points: [
+      "Developed and implemented OTP-based authorization and JWT token management for secure user authentication.",
+      "Integrated PAN and GST validation using Cashfree third-party APIs to ensure compliance and data accuracy.",
+      "Managed cron scheduling for automated processes across all onboarded customers, improving operational efficiency.",
+      "Integrated Credit Vidya and EpayLater for efficient loan management solutions for farmers and distributors.",
       "Actively participated in code reviews, offering insightful and constructive feedback to enhance the quality and efficiency of the development team’s output.",
     ],
   },
@@ -150,23 +167,23 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/JaiSharma1710",
+    link: "https://github.com/rishabh-gupta-au13",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/jaisharma1710",
+    link: "https://www.linkedin.com/in/rishabh-gupta-b2835a1a6/",
   },
 ];
 
 export const projects = [
-  {
-    icon: "IoChatboxEllipsesOutline",
-    theme: "btn-back-red",
-    name: "Chat Pdf AI",
-    description:
-      "Create a personalized chatbot using your PDF as context! Built with Next.js, Pinecone, and Google Gemini, this web app transforms your document into an interactive, AI-powered chat assistant, making it easy to retrieve and engage with the content of your PDF.",
-    githubLink: "https://github.com/JaiSharma1710/chat_pdf",
-    link: "https://chatpdf.jaisharma.co.in/",
-  },
+  // {
+  //   icon: "IoChatboxEllipsesOutline",
+  //   theme: "btn-back-red",
+  //   name: "Chat Pdf AI",
+  //   description:
+  //     "Create a personalized chatbot using your PDF as context! Built with Next.js, Pinecone, and Google Gemini, this web app transforms your document into an interactive, AI-powered chat assistant, making it easy to retrieve and engage with the content of your PDF.",
+  //   githubLink: "https://github.com/JaiSharma1710/chat_pdf",
+  //   link: "https://chatpdf.jaisharma.co.in/",
+  // },
 ];

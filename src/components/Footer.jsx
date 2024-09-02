@@ -12,7 +12,7 @@ const Footer = () => {
 
       <div className='footer-container'>
         <p>
-          © {currentYear} <strong>Jai Sharma</strong>. All rights reserved.
+          © {currentYear} <strong>Rishabh Gupta</strong>. All rights reserved.
         </p>
 
         <div className='flex gap-3 justify-center items-center'>

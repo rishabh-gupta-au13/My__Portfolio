@@ -7,7 +7,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
         Hi, I'm
-        <span className="font-semibold mx-2 text-white">Jai</span>
+        <span className="font-semibold mx-2 text-white">Rishabh Gupta</span>
         👋
         <br />A Software Engineer from Noida, India
       </h1>
@@ -52,7 +52,7 @@ const HomeInfo = ({ currentStage }) => {
         </p>
 
         <Link
-          to="https://www.linkedin.com/in/jaisharma1710"
+          to="https://www.linkedin.com/in/rishabh-gupta-b2835a1a6/"
           className="neo-brutalism-white neo-btn"
         >
           Connect
