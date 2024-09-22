@@ -152,7 +152,7 @@ export const experiences = [
     company_name: "Waycool Food And Products",
     icon: Waycool,
     iconBg: "#FFFFFF",
-    date: "NOv 2021 - Sep 2022",
+    date: "July 2021 - Sep 2022",
     points: [
       "Developed and implemented OTP-based authorization and JWT token management for secure user authentication.",
       "Integrated PAN and GST validation using Cashfree third-party APIs to ensure compliance and data accuracy.",
